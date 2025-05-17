@@ -1,0 +1,29 @@
+.cookieBar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 120px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background: aliceblue;
+    border: 1px #AAA solid;
+    color: #333;
+    gap:  10px;
+}
+
+.cookieBar button {
+    padding: 7px;
+    background: #000000;
+    color: #fff;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 400px) {
+    .cookieBar {
+        flex-direction: column;
+        padding: 10px;
+        height: 160px;
+    }
+}
